@@ -456,72 +456,104 @@ input[type="email"]:focus {
 }
 
 /*****************************************************
-*** iPhone Feature ***
+*** Video Mess Feature ***
 *****************************************************/
-#iphone-feature {
+#spotlight-feature {
   position: relative;
   padding: 240px 0 330px;
 }
 
-#iphone-feature .btns-container {
+#spotlight-feature .btns-container {
   margin-top: 62px;
 }
 
-#iphone-feature .btns-container a {
+#spotlight-feature .btns-container a {
   margin-right: 20px;
   margin-bottom: 18px;
 }
 
-#iphone-feature .btns-container a i {
+#spotlight-feature .btns-container a i {
   margin-left: 50px;
   font-size: 14px;
 }
 
-#iphone-feature .btns-container a:last-child {
+#spotlight-feature .btns-container a:last-child {
   margin-right: 0;
 }
 
-#iphone-feature .iphone-showcase {
+#spotlight-feature .iphone-showcase {
   position: absolute;
   bottom: 110px;
   right: 50%;
 }
 
 /*****************************************************
-*** Map Feature ***
+*** Video Mess Feature ***
 *****************************************************/
-#map-feature {
+#everywhere-feature {
+  position: relative;
+  padding: 240px 0 330px;
+}
+
+#everywhere-feature .btns-container {
+  margin-top: 62px;
+}
+
+#everywhere-feature .btns-container a {
+  margin-right: 20px;
+  margin-bottom: 18px;
+}
+
+#everywhere-feature .btns-container a i {
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+#everywhere-feature .btns-container a:last-child {
+  margin-right: 0;
+}
+
+#everywhere-feature .iphone-showcase {
+  position: absolute;
+  bottom: 110px;
+  right: 50%;
+}
+
+/*****************************************************
+*** Share Feature ***
+*****************************************************/
+#share-feature {
   padding: 120px 0 140px;
   position: relative;
   overflow: hidden;
 }
 
-#map-feature .partners {
+#share-feature .partners {
   margin-top: 52px;
 }
 
-#map-feature .partners .title {
+#share-feature .partners .title {
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-#map-feature .partners ul {
+#share-feature .partners ul {
   margin: 26px 0 0;
 }
 
-#map-feature .partners ul li {
+#share-feature .partners ul li {
   display: inline-block;
   margin-right: 30px;
   margin-bottom: 15px;
 }
 
-#map-feature .partners ul li:last-child {
+#share-feature .partners ul li:last-child {
   margin-right: 0;
 }
 
-#map-feature .map-showcase {
+#share-feature .map-showcase {
   position: absolute;
   bottom: 110px;
   left: 50%;
@@ -1064,17 +1096,17 @@ Responsive Styles
     color: #267df4;
   }
   /*** iPhone Feature ***/
-  #iphone-feature {
+  #spotlight-feature {
     padding: 80px 0 60px;
   }
-  #iphone-feature .iphone-showcase {
+  #spotlight-feature .iphone-showcase {
     position: relative;
     bottom: auto;
     right: auto;
     padding: 0 15px;
     margin-top: 64px;
   }
-  #iphone-feature .iphone-showcase img {
+  #spotlight-feature .iphone-showcase img {
     width: 100%;
   }
   /*** Map Feature ***/
